@@ -6,7 +6,7 @@ my config for:
 - [neovim](https://github.com/neovim/neovim) + [nvchad](https://github.com/NvChad/NvChad)
 - [neofetch](https://github.com/dylanaraps/neofetch)
 
-for my color scheme i use [catppuccin](https://github.com/catppuccin/catppuccin) for everything
+i use [catppuccin](https://github.com/catppuccin/catppuccin) color scheme for everything.
 
 showcase:
 * ![](https://raw.githubusercontent.com/fzhnf/dotfiles/main/Pasted%20image%2020230807125216.png)
