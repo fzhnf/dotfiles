@@ -1,0 +1,1 @@
+/home/fzhnf/.config/fish
