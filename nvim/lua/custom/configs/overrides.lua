@@ -9,7 +9,6 @@ M.treesitter = {
     "javascript",
     "typescript",
     "tsx",
-    "php",
     "c",
     "markdown",
     "markdown_inline",
@@ -38,22 +37,16 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
-    "intelephense",
-    "phpcbf",
 
     -- c/cpp stuff
     "clangd",
     "clang-format",
-    "codelldb",
 
     -- rust stuff
     "rust-analyzer",
 
     -- go stuff
     "gopls",
-    "impl",
-    "gotest",
-    "gomodifytags",
     "gofumpt",
     "goimports-reviser",
     "golines",
@@ -63,8 +56,6 @@ M.mason = {
     "mypy",
     "ruff",
     "black",
-    "pyright",
-    "debugpy",
   },
 }
 

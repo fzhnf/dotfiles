@@ -6,14 +6,12 @@ local highlights = require "custom.highlights"
 
 M.ui = {
   theme = "catppuccin",
-  theme_toggle = { "catppuccin", "gruvbox_light" },
+  theme_toggle = { "catppuccin", "one_light" },
 
   hl_override = highlights.override,
   hl_add = highlights.add,
-  nvdash = {
-    load_on_startup = true,
-  },
 }
+
 M.plugins = "custom.plugins"
 
 -- check core.mappings for table structure

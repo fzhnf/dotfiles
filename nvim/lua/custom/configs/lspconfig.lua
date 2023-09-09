@@ -2,7 +2,7 @@ local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
-local util = require "lspconfig/util"
+-- local util = require "lspconfig/util"
 
 -- if you just want default config for the servers then put them in a table
 local servers = {
@@ -12,7 +12,6 @@ local servers = {
   "clangd",
   "pyright",
   "gopls",
-  "intelephense",
   "rust_analyzer",
 }
 
@@ -32,7 +31,6 @@ lspconfig.clangd.setup {
 }
 
 lspconfig.gopls.setup {
-  root_dir = util.root_pattern("go.work", "go.mod", ".git"),
   settings = {
     gopls = {
       completeUnimported = true,
@@ -44,7 +42,6 @@ lspconfig.gopls.setup {
 }
 
 lspconfig.rust_analyzer.setup {
-  root_dir = util.root_pattern("Cargo.toml", "rust-project.json"),
   settings = {
     ["rust-analyzer"] = {
       cargo = {
