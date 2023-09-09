@@ -9,4 +9,5 @@ my config for:
 
 all of my tools color scheme is [catppuccin](https://github.com/catppuccin/catppuccin).
 
-![](https://raw.githubusercontent.com/fzhnf/dotfiles/main/Pasted%20image%2020230807121821.png)
+![](https://raw.githubusercontent.com/fzhnf/dotfiles/main/showcase1.png)
+![](https://raw.githubusercontent.com/fzhnf/dotfiles/main/showcase2.png)
