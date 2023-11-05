@@ -16,6 +16,8 @@ M.treesitter = {
     "cpp",
     "rust",
     "go",
+    "java",
+    "php",
   },
   indent = {
     enable = true,
@@ -42,20 +44,23 @@ M.mason = {
     "clangd",
     "clang-format",
 
+    -- python stuff
+    "pyright",
+    "black",
+
     -- rust stuff
     "rust-analyzer",
 
     -- go stuff
     "gopls",
     "gofumpt",
-    "goimports-reviser",
-    "golines",
 
-    -- python stuff
-    "pyright",
-    "mypy",
-    "ruff",
-    "black",
+    -- java stuff
+    "jdtls",
+
+    -- php stuff
+    "intelephense",
+    "phpcbf",
   },
 }
 
@@ -63,7 +68,6 @@ M.mason = {
 M.nvimtree = {
   git = {
     enable = true,
-    ignore = false,
   },
 
   renderer = {

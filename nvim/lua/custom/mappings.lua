@@ -8,9 +8,11 @@ M.general = {
     ["<leader>v"] = { "<cmd> vsp <CR>", "split vertical" },
   },
 }
+
 M.telescope = {
   n = {
     ["<leader>fd"] = { "<cmd> Telescope zoxide list <CR>", "change directory" },
+    ["<leader>lg"] = { "<cmd> LazyGit <CR>", "lazygit" },
   },
 }
 

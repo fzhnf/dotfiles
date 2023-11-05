@@ -1,9 +1,9 @@
-local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local null_ls = require "null-ls"
 local formatting = null_ls.builtins.formatting
-local diagnostics = null_ls.builtins.diagnostics
+-- local diagnostics = null_ls.builtins.diagnostics
 
 local sources = {
+
   -- webdev stuff
   formatting.deno_fmt, -- choosed deno for ts/js files cuz its very fast!
   formatting.prettier.with { filetypes = { "html", "markdown", "css" } }, -- so prettier works only on these filetypes
@@ -16,17 +16,22 @@ local sources = {
 
   -- python
   formatting.black,
-  diagnostics.mypy,
-  diagnostics.ruff,
+
+  -- rust
+  formatting.rustfmt,
 
   -- go
   formatting.gofumpt,
-  formatting.goimports_reviser,
-  formatting.golines,
 
-  --rust
-  formatting.rustfmt,
+  -- java
+  formatting.google_java_format,
+
+  -- php
+  formatting.phpcbf,
 }
+
+-- format on save
+local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 local on_attach = function(client, bufnr)
   if client.supports_method "textDocument/formatting" then

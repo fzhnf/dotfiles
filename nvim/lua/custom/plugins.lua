@@ -7,26 +7,19 @@ local plugins = {
 
   {
     "neovim/nvim-lspconfig",
-    dependencies = { -- formatter and linter dependencies
-      "jose-elias-alvarez/null-ls.nvim",
-      config = function()
-        require "custom.configs.null-ls"
-      end,
+    dependencies = {
+      -- format & linting
+      {
+        "jose-elias-alvarez/null-ls.nvim",
+        config = function()
+          require "custom.configs.null-ls"
+        end,
+      },
     },
     config = function()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
     end, -- Override to setup mason-lspconfig
-  },
-
-  {
-    "nvim-telescope/telescope.nvim",
-    dependencies = {
-      "jvgrootveld/telescope-zoxide",
-    },
-    opts = {
-      extensions_list = { "themes", "terms", "zoxide" },
-    },
   },
 
   -- override plugin configs
@@ -67,7 +60,15 @@ local plugins = {
   --   "mg979/vim-visual-multi",
   --   lazy = false,
   -- }
-
+  {
+    "nvim-telescope/telescope.nvim",
+    dependencies = {
+      "jvgrootveld/telescope-zoxide",
+    },
+    opts = {
+      extensions_list = { "themes", "terms", "zoxide" },
+    },
+  },
   {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
@@ -83,7 +84,6 @@ local plugins = {
       }
     end,
   },
-
   {
     "andweeb/presence.nvim",
     event = "BufRead",
@@ -91,9 +91,14 @@ local plugins = {
       require("presence").setup {
         main_image = "neovim",
         neovim_image_text = "(◕ ̮ ◕)─✿❃",
-        enable_line_number = true,
+        enable_line_number = false,
       }
     end,
+  },
+  {
+    "kdheepak/lazygit.nvim",
+    cmd = "LazyGit",
+    dependencies = { "nvim-lua/plenary.nvim" },
   },
 }
 
