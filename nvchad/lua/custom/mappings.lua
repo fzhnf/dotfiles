@@ -6,6 +6,7 @@ M.general = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<leader>h"] = { "<cmd> sp <CR>", "split horizontal" },
     ["<leader>v"] = { "<cmd> vsp <CR>", "split vertical" },
+    ["<C-M-S-Tab>"] = { "<cmd> lua require('base46').toggle_theme() <CR>", "toggle theme" },
   },
 }
 

@@ -3,31 +3,15 @@ local formatting = null_ls.builtins.formatting
 -- local diagnostics = null_ls.builtins.diagnostics
 
 local sources = {
-
-  -- webdev stuff
   formatting.deno_fmt, -- choosed deno for ts/js files cuz its very fast!
   formatting.prettier.with { filetypes = { "html", "markdown", "css" } }, -- so prettier works only on these filetypes
-
-  -- Lua
-  formatting.stylua,
-
-  -- cpp
-  formatting.clang_format,
-
-  -- python
-  formatting.black,
-
-  -- rust
-  formatting.rustfmt,
-
-  -- go
-  formatting.gofumpt,
-
-  -- java
-  formatting.google_java_format,
-
-  -- php
-  formatting.phpcbf,
+  formatting.stylua, -- lua
+  formatting.clang_format, -- c, cpp
+  formatting.black, -- python
+  formatting.rustfmt, -- rust
+  formatting.gofumpt, -- go
+  formatting.google_java_format, -- java
+  formatting.phpcbf, -- php
 }
 
 -- format on save

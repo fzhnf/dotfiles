@@ -70,14 +70,17 @@ lspconfig.jdtls.setup {
   capabilities = capabilities,
   cmd = { "jdtls" },
   filetypes = { "java" },
-  root_dir = lspconfig.util.root_pattern {
+  init_options = {
+    workspace = "/home/fzhnf/.cache/jdtls/workspace",
+  },
+  root_dir = lspconfig.util.root_pattern(
     "build.xml",
     "pom.xml",
     "settings.gradle",
     "settings.gradle.kts",
     "build.gradle",
-    "build.gradle.kts",
-  },
+    "build.gradle.kts"
+  ),
 }
 
 lspconfig.pyright.setup {

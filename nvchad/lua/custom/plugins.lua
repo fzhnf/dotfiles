@@ -59,7 +59,8 @@ local plugins = {
   -- {
   --   "mg979/vim-visual-multi",
   --   lazy = false,
-  -- }
+  -- },
+
   {
     "nvim-telescope/telescope.nvim",
     dependencies = {
@@ -76,6 +77,7 @@ local plugins = {
     config = function()
       require("copilot").setup {
         panel = {
+          enable = true,
           auto_refresh = true,
         },
         suggestion = {
@@ -100,6 +102,21 @@ local plugins = {
     cmd = "LazyGit",
     dependencies = { "nvim-lua/plenary.nvim" },
   },
+  -- {
+  --   "willothy/wezterm.nvim",
+  --   config = true,
+  --   lazy = false,
+  -- },
+  -- {
+  --   "lukas-reineke/indent-blankline.nvim",
+  --   version = "2.20.7",
+  --   init = function()
+  --     require("core.utils").lazy_load "indent-blankline.nvim"
+  --   end,
+  --   opts = function()
+  --     return require "custom.configs.blankline"
+  --   end,
+  -- },
 }
 
 return plugins
