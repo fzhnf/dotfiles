@@ -1,4 +1,4 @@
-function la --wraps=ls --wraps='ls -a' --wraps='ll -a' --description 'alias la=ll -a'
-  ll -a $argv
+function la --wraps=ls --wraps='ll --all --tree --level=2' --description 'alias la=ll --all --tree --level=2'
+  ll --all --tree --level=2 $argv
         
 end
