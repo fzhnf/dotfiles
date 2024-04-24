@@ -4,3 +4,6 @@
 [submodule "kickstart-modular.nvim"]
 	path = kickstart-modular.nvim
 	url = https://github.com/fzhnf/kickstart-modular.nvim.git
+[submodule "wezterm/wezterm-bar"]
+	path = wezterm/wezterm-bar
+	url = https://github.com/nekowinston/wezterm-bar
