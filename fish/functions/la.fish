@@ -1,4 +1,4 @@
-function la --wraps=ls --wraps='ll --all --tree --level=2' --description 'alias la=ll --all --tree --level=2'
-  ll --all --tree --level=2 $argv
+function la --wraps='eza --long --all' --description 'alias la=eza --long --all'
+  eza --long --all $argv
         
 end

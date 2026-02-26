@@ -7,3 +7,6 @@
 [submodule "wezterm/wezterm-bar"]
 	path = wezterm/wezterm-bar
 	url = https://github.com/nekowinston/wezterm-bar
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:fzhnf/lazyvim-starter.git

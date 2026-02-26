@@ -1,0 +1,145 @@
+themes {
+    catppuccin-mocha {
+        // Already light text on deep dark background - KEPT
+        text_unselected {
+            base        205 214 244 // Text
+            background  24 24 37    // Mantle
+            emphasis_0  217 166 140 // Peach
+            emphasis_1  137 220 235 // Sky
+            emphasis_2  166 227 161 // Green
+            emphasis_3  245 194 231 // Pink
+        }
+        // Already light text on a "lighter dark" background (Surface2) for selection - KEPT
+        text_selected {
+            base        205 214 244 // Text
+            background  88 91 112   // Surface2
+            emphasis_0  217 166 140 // Peach
+            emphasis_1  137 220 235 // Sky
+            emphasis_2  166 227 161 // Green
+            emphasis_3  245 194 231 // Pink
+        }
+        // Original: dark text (Mantle) on light Green BG.
+        // New: light Green text on a "lighter dark" (Surface0) BG.
+        ribbon_selected {
+            base        166 227 161 // Catppuccin Green (light text)
+            background  49 50 68    // Catppuccin Surface0 ("lighter dark" BG)
+            emphasis_0  243 139 168 // Red
+            emphasis_1  217 166 140 // Peach
+            emphasis_2  245 194 231 // Pink
+            emphasis_3  137 180 250 // Blue
+        }
+        // Original "odd" tabs: dark text (Mantle) on light Text BG (205 214 244).
+        // Original "even" tabs: effectively light Blue text on light Text BG (via emphasis_1 & _2).
+        // New: Both use "lighter dark" BGs.
+        ribbon_unselected {
+            // For "odd" unselected tabs:
+            base        186 194 222 // Catppuccin Subtext1 (light text)
+            background  49 50 68    // Catppuccin Surface0 ("lighter dark" BG)
+            
+            emphasis_0  243 139 168 // Catppuccin Red (Original accent)
+            
+            // For "even" unselected tabs (BG is emphasis_1, FG is emphasis_2):
+            emphasis_1  69 71 90    // Catppuccin Surface1 (another "lighter dark" BG, distinct from odd tabs)
+            emphasis_2  166 173 200 // Catppuccin Subtext0 (dimmer light text)
+            
+            emphasis_3  245 194 231 // Catppuccin Pink (Original accent)
+        }
+        // Original: light Green text on background 0 (black).
+        // New: light Green text on standard dark Base BG.
+        table_title {
+            base        166 227 161 // Green
+            background  30 30 46    // Catppuccin Base
+            emphasis_0  217 166 140 // Peach
+            emphasis_1  137 220 235 // Sky
+            emphasis_2  166 227 161 // Green
+            emphasis_3  245 194 231 // Pink
+        }
+        // Already light text on "lighter dark" (Surface2) BG - KEPT
+        table_cell_selected {
+            base        205 214 244
+            background  88 91 112
+            emphasis_0  217 166 140
+            emphasis_1  137 220 235
+            emphasis_2  166 227 161
+            emphasis_3  245 194 231
+        }
+        // Already light text on deep dark (Mantle) BG - KEPT
+        table_cell_unselected {
+            base        205 214 244
+            background  24 24 37
+            emphasis_0  217 166 140
+            emphasis_1  137 220 235
+            emphasis_2  166 227 161
+            emphasis_3  245 194 231
+        }
+        // KEPT - Same as table_cell_selected
+        list_selected {
+            base        205 214 244
+            background  88 91 112
+            emphasis_0  217 166 140
+            emphasis_1  137 220 235
+            emphasis_2  166 227 161
+            emphasis_3  245 194 231
+        }
+        // KEPT - Same as table_cell_unselected
+        list_unselected {
+            base        205 214 244
+            background  24 24 37
+            emphasis_0  217 166 140
+            emphasis_1  137 220 235
+            emphasis_2  166 227 161
+            emphasis_3  245 194 231
+        }
+        // Original base (frame color) is light Green. BG 0 to Base. emphasis_3 was 0.
+        frame_selected {
+            base        166 227 161 // Green (frame color)
+            background  30 30 46    // Catppuccin Base
+            emphasis_0  217 166 140 // Peach
+            emphasis_1  137 220 235 // Sky
+            emphasis_2  245 194 231 // Pink
+            emphasis_3  180 190 254 // Lavender (was 0)
+        }
+        // Original base (highlight color) is light Peach. BG 0 to Base.
+        frame_highlight {
+            base        217 166 140 // Peach 
+            background  30 30 46    // Catppuccin Base
+            emphasis_0  245 194 231 // Pink
+            emphasis_1  217 166 140 // Peach
+            emphasis_2  217 166 140 // Peach
+            emphasis_3  217 166 140 // Peach
+        }
+        // Original: light Green text on BG 0. emphasis_1 was dark Mantle.
+        // New: BG to Base. emphasis_1 to light Yellow.
+        exit_code_success {
+            base        166 227 161 // Green
+            background  30 30 46    // Catppuccin Base
+            emphasis_0  137 220 235 // Sky (Original)
+            emphasis_1  249 226 175 // Yellow (was dark Mantle 24 24 37)
+            emphasis_2  245 194 231 // Pink (Original)
+            emphasis_3  137 180 250 // Blue (Original)
+        }
+        // Original: light Red text on BG 0. emphasis_1,2,3 were 0.
+        // New: BG to Base. emphasis_1,2,3 to light accents.
+        exit_code_error {
+            base        243 139 168 // Red
+            background  30 30 46    // Catppuccin Base
+            emphasis_0  249 226 175 // Yellow (Original)
+            emphasis_1  217 166 140 // Peach (was 0)
+            emphasis_2  166 227 161 // Green (was 0)
+            emphasis_3  137 220 235 // Sky (was 0)
+        }
+        // Replaced 0 values with distinct Catppuccin light accent colors.
+        multiplayer_user_colors {
+            player_1  245 194 231 // Pink
+            player_2  137 180 250 // Blue
+            player_3  245 224 220 // Rosewater (was 0)
+            player_4  249 226 175 // Yellow
+            player_5  137 220 235 // Sky
+            player_6  203 166 247 // Mauve (was 0)
+            player_7  243 139 168 // Red (Original)
+            player_8  116 199 236 // Sapphire (was 0)
+            player_9  180 190 254 // Lavender (was 0)
+            player_10 235 160 172 // Maroon (was 0)
+        }
+    }
+}

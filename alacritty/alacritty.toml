@@ -1,0 +1,17 @@
+[general]
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
+
+[font]
+normal = { family = "Iosevka Nerd Font" }
+size = 11
+builtin_box_drawing = false
+
+[window]
+decorations = "None"
+
+[terminal]
+shell = 'zellij'
+

@@ -1,0 +1,4 @@
+[tools]
+gradle = "8.13"
+java = "17"
+node = "lts"

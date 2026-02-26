@@ -1,0 +1,66 @@
+// Include dms files
+include "dms/colors.kdl"
+include "dms/layout.kdl"
+include "dms/alttab.kdl"
+include "dms/wpblur.kdl"
+include "dms/cursor.kdl"
+
+
+environment {
+  XDG_CURRENT_DESKTOP "niri"
+  QT_QPA_PLATFORMTHEME "qt6ct" 
+}
+
+spawn-at-startup "dms" "run"
+spawn-at-startup "/usr/libexec/polkit-mate-authentication-agent-1"
+
+
+output "eDP-2" {
+    mode "1920x1200@60.015"
+    position x=0 y=0
+}
+
+
+// output "HDMI-A-1" {
+//     mode "1920x1080@60.000"
+//     position x=0 y=0 
+// }
+
+input {
+    keyboard {
+        repeat-delay 225
+        repeat-rate 42
+    }
+    touchpad {
+        tap
+    }
+    focus-follows-mouse max-scroll-amount="0%"
+}
+
+
+hotkey-overlay {
+    skip-at-startup
+}
+
+
+prefer-no-csd
+
+overview {
+  zoom 0.67
+}
+
+
+window-rule {
+    match app-id=r#"zen$"# title="^Picture-in-Picture$"
+    open-floating true
+}
+
+
+screenshot-path "~/Pictures/Screenshots/screenshot-%Y-%m-%d %H-%M-%S.png"
+
+
+
+include "layout.kdl"
+include "cast.kdl"
+include "binds.kdl"
+

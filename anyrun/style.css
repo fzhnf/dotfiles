@@ -1,0 +1,66 @@
+window {
+  background: transparent;
+}
+
+box.main {
+  padding: 3px;
+  margin: 5px;
+  border-radius: 6px;
+  border: 1px solid @theme_selected_bg_color;
+  background-color: @theme_bg_color;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+}
+
+text {
+  min-height: 28px;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.matches {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+
+box.plugin:first-child {
+  margin-top: 2px;
+}
+
+box.plugin.info {
+  min-width: 180px;
+}
+
+list.plugin {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+label.match.description {
+  font-size: 9px;
+  padding: 1px 3px;
+}
+
+label.plugin.info {
+  font-size: 12px;
+  padding: 2px 4px;
+}
+
+.match {
+  background: transparent;
+  padding: 2px 6px;
+  margin: 1px 0;
+}
+
+.match:selected {
+  border-left: 2px solid @theme_selected_bg_color;
+  background: transparent;
+  animation: fade 0.08s linear;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

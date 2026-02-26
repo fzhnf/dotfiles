@@ -1,0 +1,26 @@
+layout {
+    center-focused-column "never"
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+    border {
+        off
+    }
+    focus-ring {
+        width 1
+    }
+}
+
+
+window-rule {
+    match app-id=r#"^pavucontrol$"#
+    match app-id=r#"^steam$"#
+    match app-id=r#"^xdg-desktop-portal$"#
+    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"org.quickshell$"#
+    open-floating true
+}
+
+

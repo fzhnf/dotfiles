@@ -1,0 +1,1396 @@
+ls
+la
+last
+ls
+ls | last
+ls
+la
+ls -a
+a
+sudo
+dnf
+yay
+sudo dnf upgrade
+open mini_games.sqlite
+open mini_games.sqlite | query db "SELECT * FROM game_saves"
+ls
+la
+nu
+ls
+la
+ls
+la
+ls
+config nu
+cd fish
+cd config
+z config
+z fish
+cd .config/fish/
+ls
+nvim config.fish
+config nu
+cd fish
+z fish
+z ../fish/
+cd ../fish
+fish
+nvim config.fish
+yay
+config nu
+hx
+config nu
+config nu --doc | nu-highlight | less -R
+help config env
+config env --doc
+cd ~/.config/fish
+zoxide init nu
+zoxide init nushll
+zoxide init nusehll
+zoxide init nushell
+nvim config.fish
+echo $EDIOTR
+echo $EDITOR
+echo $env.EDITOR
+echo $env.ANDROID_HOME
+echo $env.GOPATH
+echo $env.PNPM_HOME
+echo $env.BUN_INSTALL
+echo $env.PATH
+cd music
+cd Music/
+fd boy
+fd boyz
+echo $env.BUN_INSTALL
+ls
+composer
+composer ls
+composer list
+composer install --list
+cd fish
+cd ~/.config/fish
+zoxide init nushell
+cat $nu.env-path
+nvim config.fish
+cd
+cd --hel
+ls
+la
+type -a adb
+nvim ~/.config/nushell/env.nu
+ls
+la
+banner
+lolcat
+yes |lolcat
+nvim
+cd nu
+cd nushe
+cd config
+cd nushell/
+ls
+la
+alias -
+alias --help
+abbr
+ls
+la
+ls
+vnim
+nvim
+cd re ma mo
+ls
+ls
+la
+nvim
+ls
+fish
+cd re ma mo
+ls
+gstat
+cat $nu.env-path
+cat $nu.config-path
+nvim
+help shells
+help shell
+ls
+cd re ma mo
+ls
+cd re ma mo
+ls
+mise
+sudo dnf install mise
+type -a nvm
+config nu
+:qa
+nvim
+config nu
+mise
+sudo dnf remove python
+cd fish
+cd functions/
+rm -rf fish_prompt.pure-backup.fish
+fish
+alias
+nvm
+mise
+alias
+fish
+grep -r "fish_prompt_pwd_dir_length" ~/.config/fish/
+fish
+fish
+alias
+fish
+fish
+cd nu
+cd
+nvim
+ls
+la
+ls
+la
+ls
+la
+echo "123" > /home/fzhnf/.gemini/antigravity/scratch/test_source.nu; nu -c 'print (open /home/fzhnf/.gemini/antigravity/scratch/test_source.nu | lines | first | into int | echo $in)'
+ls
+cat $nu.config-path
+cat $env.config
+echo $env.config
+ls
+config show
+cat $nu.config-
+config nu
+config nu --doc | nu-highlight | less -R
+config nu --doc | wl-copy
+nvim
+ls
+echo $env.config
+echo $nu.default-config-dir
+ls
+la
+ls
+la
+echo $nu.default-config-dir
+echo $nu.default-config-dir
+ls
+alias
+adb
+type -a adb
+type -a cat
+scope aliases
+ll
+ls
+la
+ll
+ls
+type -a ls
+sl
+ls
+la
+ll
+type -a ls
+type -a la
+nvim
+fish
+nvim
+tree
+fish
+mise
+nvim
+ls
+la
+sudo dnf autoremove
+ls
+la
+fmt
+delta
+jj
+fish 
+ls
+la
+cd re ma mo
+ls
+cd re ma mo
+ls
+cd re ma mo
+ls
+cd re ma mo
+ls
+fish
+ls
+cd publci
+cd public
+cd binaryRepos/
+cd proj
+cd komatsu_reman_app/
+cd mobile/
+ls
+la
+ls
+la
+kk
+ll
+tree
+ls
+ll
+ls
+la
+cat $nu.config-
+cat $nu.config
+cd downl
+cd nte
+cd note
+cat note.txt
+cd re ma mo
+fish
+fish
+cd re ma mo
+config nu
+cd nu
+ls
+nvim config.nu
+type -a ls
+ls
+eza
+ls
+alias
+alias --help
+config nu |grep alias
+$nu.config-path
+$nu.config-path --doc
+history | grep "--doc"
+history | grep "doc"
+config nu --doc |grep "alias"
+config nu --doc |grep alias
+config nu --doc |grep a
+nvim
+config nu
+okular
+baloo
+sudo dnf list --installed
+sudo dnf list --installed |grep baloo
+sudo dnf remove baloo-widgets
+okular
+cd re ma mo
+cd tracer
+echo $SHELL
+echo $env.SHELL
+echo $env.0
+nvim
+nvims
+cd re ma mo
+nvi
+nvim
+cd pro
+typst compile main.typ 2>&1 | head -50
+cd prop
+typst compile main.typ 2>&1 | head -50
+typst compile main.typ  | head -50
+typst compile main.typ  
+cd tracer
+ls
+sudo mount
+lsblk
+nvim
+fish
+ya
+y
+cd fish
+ls
+cd completions/
+ls
+cd ../functions/
+ls
+cat adb.fish
+cat lazydocker.fish
+lazydocker
+echo $env.0
+ls
+cat nvm.fish
+ls
+cat run_android.fish
+yay
+fisher remove jorgebucaran/nvm.fish
+gradle
+fisher list
+bash
+fish
+fish
+type -a java
+java --version
+gradle
+type -a java
+java --version
+type -a java
+mise use -g gradle@8.13
+gradle
+fish
+tldr mise
+tldr --update
+ll
+la
+mise activate
+echo $env.0
+ls
+mise activate
+nvim
+config nu
+cd nu
+nvim
+mise activate nu
+config nu 
+cd nu
+'<\n>let mise_path = $nu.default-config-dir | path join mise.nu<\n>^mise activate nu | save $mise_path --force<\n>' | save $nu.config-path --append<\n>"\nuse ($nu.default-config-dir | path join mise.nu)" | save $nu.config-path --append<\n>
+let mise_path = $nu.default-config-dir | path join mise.nu<\n>^mise activate nu | save $mise_path --force
+'<\n>let mise_path = $nu.default-config-dir | path join mise.nu<\n>^mise activate nu | save $mise_path --force<\n>' | save $nu.env-path --append<\n>"\nuse ($nu.default-config-dir | path join mise.nu)" | save $nu.config-path --append
+let mise_path = $nu.default-config-dir | path join mise.nu<\n>^mise activate nu | save $mise_path --force
+ls
+java --version
+ls
+mise
+mise status
+mise doctor
+yay
+ls
+la
+type -a bun
+zig
+type -a adb
+sudo dnf remove adb
+sudo dnf list --installed |grep android
+nvim 
+yay
+cargo-install-update install update
+cargo-install-update install-update
+cargo-install-update install-update -a
+go-global-update 
+nvim
+cd nvim
+nvim
+# required<\n>mv ~/.config/nvim{,.bak}<\n><\n># optional but recommended<\n>mv ~/.local/share/nvim{,.bak}<\n>mv ~/.local/state/nvim{,.bak}<\n>mv ~/.cache/nvim{,.bak}
+fish
+cd nvim.bak
+nvim
+nvim
+cd nvim/
+git init
+fish
+nvim
+cd
+nvim
+cd re ma mo
+nvim
+cd nvim
+nvim
+fish
+nvim
+cd nvim
+nvim
+cd
+cd nvim
+nvim
+nvr
+nvim
+fish
+nvim
+killall vesktop
+btop
+cd nvim
+nvim
+cd dart
+cd re ma mo
+nvim
+cd re ma mo
+nvim
+ffmpet
+ffmpeg
+cd zellij
+nvim
+nvi
+nvim
+yay
+sudo dnf list --installed |grep android
+nvim
+lsblk
+fish
+cd re ma mo
+nvim
+lsblk
+cd re ma mo
+ya
+y
+ya
+config nu
+y
+echo $env.VISUAL
+echo $env.EDITOR
+echo $env.VISUAL
+y
+ls
+lsblk
+cd conce
+ffmpeg -i '【重大発表あり!!!】宝鐘マリン生誕祭 3D LIVE！豪華ゲスト＆新曲お披露目！【ホロライブ⧸宝鐘マリン】 [NxtHvRVLzXM].mkv' -vn -acodec flac '【重大発表あり!!!】宝鐘マリン生誕祭 3D LIVE！豪華ゲスト＆新曲お披露目！【ホロライブ⧸宝鐘マリン】 [NxtHvRVLzXM].flac'
+y
+cd concert
+yt-dlp https://www.youtube.com/watch?v=3LaDuoHDC_g
+ffmpeg -i '【ゲスト多数！新髪型お披露目！】昭和老人会♪宝鐘マリン3周年記念歌謡祭【hololive⧸宝鐘マリン】 [3LaDuoHDC_g].webm'  -vn -acodec flac '【ゲスト多数！新髪型お披露目！】昭和老人会♪宝鐘マリン3周年記念歌謡祭【hololive⧸宝鐘マリン】 [3LaDuoHDC_g].flac'
+xdg-open '【ゲスト多数！新髪型お披露目！】昭和老人会♪宝鐘マリン3周年記念歌謡祭【hololive⧸宝鐘マリン】 [3LaDuoHDC_g].flac'
+mpv '【ゲスト多数！新髪型お披露目！】昭和老人会♪宝鐘マリン3周年記念歌謡祭【hololive⧸宝鐘マリン】 [3LaDuoHDC_g].flac'
+cd concert
+nvim
+nvim
+cd temporary_app/flutter_login/
+nvim
+yay
+asusctl
+asusctl profile
+asusctl profile list
+asusctl profile get
+asusctl profile next
+asusctl profile get
+powerprofilesctl geet
+powerprofilesctl get
+yay
+eza
+ls
+eza
+eza --long
+eza --help
+type -a eza
+sudo dnf search eza
+eza
+eza -| jq
+eza | jq
+eza | jq .
+jq
+eza --json
+eza
+adb shell
+fish
+history | grep "adbsync"
+fish
+adbsync push ~/Music/Albums/ /storage/emulated/0/Music/Albums/<\n>adbsync push ~/Music/Single/ /storage/emulated/0/Music/Single/
+sudo iotop -ao
+lsusb -t
+pgrep rsync
+sudo kill -STOP 280384 280385 280398
+pgrep rsync
+pgrep -a Xwayland
+sudo kill -280384 280385 280398
+sudo kill 280384 280385 280398
+yay
+sudo dnf autoremove
+ya
+cd re ma mo
+nvim
+cd re ma mo
+cd nvim
+cd re ma mo
+nvim
+nvim
+cd flutter_launcher_icons.yaml
+cd temporary_app/flutter_login/
+ls
+nvim
+cd nvim
+cd -
+cd nvim
+nvim
+emulator
+fish
+flutter run
+java
+java --version
+flutter run
+echo $env.JAVA_HOME
+mise which java<\n>java -version
+echo $env.JAVA_HOME
+cd ~/P/p/k/m/t/flutter_login<\n>rm -rf ~/.gradle/caches<\n>rm -rf android/.gradle<\n>rm -rf android/build
+cd flutter_login
+rm -rf ~/.gradle/caches
+rm -rf android/.gradle/
+rm -rf android/build
+flutter run
+type -a flutter
+fzhnf@fedora ~/P/p/k/m/t/flutter_login (master)> cd flutter_login<\n>zoxide: you are already in the only match<\n>fzhnf@fedora ~/P/p/k/m/t/flutter_login (master)> rm -rf ~/.gradle/caches<\n>fzhnf@fedora ~/P/p/k/m/t/flutter_login (master)> rm -rf android/.gradle/<\n>fzhnf@fedora ~/P/p/k/m/t/flutter_login (master)> rm -rf android/build<\n>fzhnf@fedora ~/P/p/k/m/t/flutter_login (master)> flutter run<\n>Resolving dependencies...<\n>Downloading packages...<\n>  flutter_form_builder 10.3.0+1 (10.3.0+2 available)<\n>  meta 1.17.0 (1.18.1 available)<\n>Got dependencies!<\n>2 packages have newer versions incompatible with dependency constraints.<\n>Try `flutter pub outdated` for more information.<\n>Launching lib/main.dart on sdk gphone64 x86 64 in debug mode...<\n>Running Gradle task 'assembleDebug'...<\n><\n>ERROR: JAVA_HOME is set to an invalid directory: /home/fzhnf/.sdkman/candidates/java/current
+cat ~/.gradle/gradle.properties
+cd
+rg sdkman
+echo $env.SHELL
+fzhnf@fedora ~> echo $env.SHELL
+echo $env.SHELL
+config nu
+cd fish
+nvim config.fish
+rg sdkman
+cd 
+rg sdkman
+rg -s sdkman
+clear
+rg -s sdkman
+rg -s sdkman |wl-copy
+# If sdk.fish exists there, remove it<\n>rm ~/.config/fish/conf.d/sdk.fish<\n><\n># Also remove the SDKMAN functions<\n>rm ~/.config/fish/functions/sdk.fish<\n>rm ~/.config/fish/functions/__sdkman-noexport-init.sh<\n><\n># And completions<\n>rm ~/.config/fish/completions/sdk.fish
+rm ~/Public/dotfiles/fish/conf.d/sdk.fish<\n>rm ~/Public/dotfiles/fish/functions/sdk.fish<\n>rm ~/Public/dotfiles/fish/functions/__sdkman-noexport-init.sh<\n>rm ~/Public/dotfiles/fish/completions/sdk.fish
+clear
+rg -s sdkman 
+flutter run
+rg -s sdkman 
+cd
+rg -s sdkman 
+btop
+sudo pkill -f rg
+nvim
+btop
+sudo pkill -9 rg
+fish
+sudo rg sdkman / -g '!/proc' -g '!/sys' -g '!/dev' 2>/dev/null
+sudo rg sdkman /etc /home /root /opt /usr/local 2>/dev/null 
+# Kill any running Gradle daemons<\n>pkill -f gradle<\n><\n># Remove Gradle cache completely<\n>rm -rf ~/.gradle<\n><\n># Clean Flutter's build cache<\n>cd ~/P/p/k/m/t/flutter_login<\n>flutter clean<\n><\n># Check and remove local.properties (likely has the old JAVA_HOME cached)<\n>cat android/local.properties<\n>rm android/local.properties<\n><\n># Now try running Flutter again<\n>flutter run
+flutter run
+nvim
+nvim
+# Kill any running Gradle daemons<\n>pkill -f gradle<\n><\n># Remove Gradle cache completely<\n>rm -rf ~/.gradle<\n><\n># Clean Flutter's build cache<\n>cd ~/P/p/k/m/t/flutter_login<\n>flutter clean<\n><\n># Check and remove local.properties (likely has the old JAVA_HOME cached)<\n>cat android/local.properties<\n>rm android/local.properties<\n><\n>
+pkill -f gradle
+rm -rf ~/.gradle
+# Kill any running Gradle daemons<\n>pkill -f gradle<\n><\n># Remove Gradle cache completely<\n>rm -rf ~/.gradle<\n><\n># Clean Flutter's build cache<\n>cd ~/P/p/k/m/t/flutter_login<\n>flutter clean<\n><\n># Check and remove local.properties (likely has the old JAVA_HOME cached)<\n>cat android/local.properties<\n>rm android/local.properties<\n><\n>
+cd flutter login
+flutter clean
+cat android/local.properties
+rm android/local.properties
+flutter clean
+flutter run
+sudo rg sdkman /etc /home /root /opt /usr/local 2>/dev/null 
+cd fish
+nvim
+flutter run
+cd fish
+sudo su
+neofetch
+nvim
+flutter run
+grep -r "JAVA_HOME" ~/.bashrc ~/.bash_profile ~/.profile ~/.zshrc ~/.config/fish/config.fish 2>/dev/null
+# In Fish<\n>echo $JAVA_HOME<\n>env | grep -i java<\n><\n># Check all Fish config files<\n>ls -la ~/.config/fish/
+fish
+config nu<\n>echo $JAVA_HOME<\n>env | grep -i java<\n><\n># Check all Fish config files<\n>ls -la ~/.config/fish/
+clear
+config nu<\n>echo $JAVA_HOME<\n>env | grep -i java<\n><\n># Check all Fish config files<\n>ls -la ~/.config/fish/
+clear<\n>echo $JAVA_HOME<\n>env | grep -i java<\n><\n># Check all Fish config files<\n>ls -la ~/.config/fish/
+ls
+config nu
+# 1. Clear Gradle's daemon and cache<\n>rm -rf ~/.gradle/daemon<\n>rm -rf ~/.gradle/caches<\n><\n># 2. Clear the project's Gradle wrapper cache<\n>cd ~/Public/studyRepos/kolaborasi/markas-tps/flutter_login<\n>rm -rf android/.gradle<\n>rm -rf android/build<\n><\n># 3. Verify mise Java is working<\n>mise current java<\n>java -version<\n><\n># 4. Try running Flutter again<\n>flutter clean<\n>flutter run
+echo $env.JAVA_HOME
+fish
+# Create/edit the file<\n>cat > android/local.properties << EOF<\n>sdk.dir=/home/fzhnf/Android/Sdk<\n>flutter.sdk=/home/fzhnf/.flutter<\n>EOF<\n><\n># Then run<\n>flutter run
+bash
+# Check for any sdkman-related files in Fish config<\n>ls -la ~/.config/fish/conf.d/ | grep -i sdkman<\n>ls -la ~/.config/fish/functions/ | grep -i sdkman<\n><\n># Remove them<\n>rm ~/.config/fish/conf.d/*sdkman* 2>/dev/null<\n>rm ~/.config/fish/functions/*sdkman* 2>/dev/null<\n><\n># Also check your main config file<\n>grep -i sdkman ~/.config/fish/config.fish<\n><\n># Check completions too<\n>ls ~/.config/fish/completions/ | grep -i sdkman<\n>rm ~/.config/fish/completions/*sdkman* 2>/dev/null
+bash
+fish
+bash
+emulator -avd Small_Phone
+fastfetch 
+cd flutter
+flutter run
+flutter run -d 
+flutter run -d emulator-5
+bash
+rm -rf ~/.sdkman
+nvim ~/.bashrc
+cd
+nvim ~/.bashrc
+nvim ~/.bash_profile
+bash
+rg -s sdkman 
+flutter run -d emulator-5
+bash
+flutter doctor -v
+sudo dnf list --installed |grep flutter
+flutter
+type -a flutter
+config nu
+cd ~/.flutter
+git restore .
+git clean -xfd
+git pull
+flutter doctor -v
+cd flutter
+flutter run -d emulator-5
+type -a gradle
+rg -uuu "\.sdkman/candidates/java" ~ 2>/dev/null | head -50
+lsblk
+emulator -avd Small_Phone
+bash
+flutter run -d emulator-5
+cd re ma mo
+nvim
+cd nvim
+nvim
+nvim
+emulator -avd Small_Phone
+cd .config
+cd flutter/
+ls
+nvim
+cd re ma mo
+nvim
+nivm
+nvi
+flutter run -d emulator-5
+nvim
+emulator -avd Small_Phone
+fish
+yay
+nmtui
+yay
+cd re ma mo
+flutter run -d emulator-5
+flutter run
+flutter devices
+flutter devices
+adb devices
+flutter run -d b6ba1544
+cd re ma mo
+cd tracer study
+nvi
+typst
+nvim
+nmtui
+cd re ma mo
+ya
+y
+cd `Downloads/Tracer Study/Pictures/`
+ls
+antigravity .
+nvim /home/fzhnf/.gemini/antigravity/brain/09755f51-c967-46e4-9d89-d6f71b9bccc1/ITK_Design_System_and_Tracer_Study_Wireframe.md.resolved
+nvim
+cd re mamo
+cd re ma mo
+flutter run -d b6ba1544
+flutter run -d emulator-5
+emulator -avd Small_Phone
+nvim /home/fzhnf/.gemini/antigravity/brain/c5b47552-63e4-47e2-ad00-4dc1c638b063/wireframes.md.resolved
+nvim
+cd nvim
+cd -
+nvim
+nvim
+flutter run -d emulator-5
+emulator -avd Small_Phone
+nvim
+yay
+sudo dnf autoremove
+yay
+sudo dnf autoremove
+nvim
+cd re ma mo
+cd nvim
+nvim
+nvim
+cd temporary_app/flutter_login/ ../flutter_login/
+ls
+mv temporary_app/flutter_login/ ../flutter_login/
+ls
+nvim
+killall antigravity
+btop
+nvim
+cd nvi
+cd nu
+nvi
+nvim config.nu
+code .
+cd nvim
+nvim
+cd niri
+nvim
+cd tracer
+nvim
+cd tracer
+cd laporan
+fish
+nvim
+cd frontend
+ls
+nvim package.json
+cd tracer
+fd bpmn
+cd tracerstudy
+cd docs/
+cd bpmn/
+ls
+yay
+sudo dnf autoremove
+cd re ma mo
+nvim
+cd tracerstudy
+yay
+cd tracerstudy
+cd proposal_tugas_akhir/resources/contoh-proposal-utama/
+ls
+okular `11221051_Reno Fahrezi Purnomo_Proposal-TA.pdf`
+ls
+nvim
+yay
+cd tracerstudy
+nvim
+lsblk
+lsbl
+lsblk
+lsbl
+lsblk
+cd re ma mo
+cd trac
+nvim
+lsblk
+nvim
+flutter run -d emulator-5
+emulator -avd Small_Phone
+lsblk
+yay
+cd trac
+cd Downloads/
+nvim
+cd study
+ls
+cd studyre
+ls
+flutter create test_page
+cd test_page/
+nvim `Satu KRA.html`
+xdg-open `Satu KRA.html`
+flutter run
+cd download
+nvim
+emulator -avd Small_Phone
+nvim
+systemctl enable bluetooth
+systemctl disable bluetooth
+systemctl start bluetooth
+nvim `Satu KRA.html`
+yay
+sudo dnf autoremove
+cd tracer
+evince
+nautilus
+dolphin .
+nvim
+cd tracer
+antigravity .
+cd proposal_tugas_akhir/
+antigravity .
+nvim
+cd re ma mo
+nvim
+cd nvim
+cd tracer
+nvim
+nvim
+nvim
+cd tracer
+cd nvim
+nvi
+nvim
+cd re ma mo
+cd study
+ls
+cd study
+ls 
+ls | sort date
+ls | sort-by modified
+ls | sort-by modified -r
+cd test_page/
+:qa
+nvim
+nvim
+cd tracer
+cd prop
+nvim
+cd re ma mo
+nvim
+cd prop
+typst compile `1122107_Faiz Ahnaf Samudra Azis_proposal-TA.typ`
+yay
+popper
+pdftotext
+cd sumber
+cd resource
+ls
+cd prop
+cd resources/
+cd sumber-pustaka/penelitian_terdahulu/
+ls
+ls *.pdf | each { |file| pdftotext $file.name }
+ls
+killall antigravity
+btop
+yay
+ld
+;s
+ls
+clear
+ls
+cd Pictures/
+ls
+cd `saved pictures/`
+ls
+cd ..
+ls
+cd ..
+ls
+cd Documents/
+ls
+ilove isreale
+isralw
+cd re ma mo
+nivm
+cd re ma mo
+nivm
+nvi
+nvim
+cd re ma mo
+yay
+sudo dnf autoremove
+cd re ma mo
+nvim
+cd nvim
+nvim
+nvi
+nvim
+nvim
+yay
+sudo dnf autoremove
+yay
+ls
+la
+ls | group-by type | get file | get size | math sum
+ls | group-by type | get file | get size 
+ls | group-by type | get file 
+ls | group-by type 
+ls | group-by type | get size | math sum
+ls | get size | math sum
+ls | get size 
+ls | group-by type
+ls | group-by type | get file | get name | math length
+ls | group-by type | get file | get name | math sum
+ls | group-by type | get file | get name | strings 
+ls | group-by type | get file | get name 
+ls | group-by type | get file | get name | strings 
+tldr strings
+strings --help
+nvim
+nvm
+nvim
+ls
+la
+btop
+nushell
+type -a zellij
+sudo dnf search zellij
+cargo cargo-install-update install-update -a
+cargo cargoinstall-update install-update -a
+cargo install-update install-update -a
+type -a cargo-install-update
+ls
+cd zellij
+nvi
+ls
+la
+nvim
+expr 123456+789
+cd re ma mo
+nvim
+info
+yay
+sudo dnf autoremove
+yay
+sudo dnf autoremove
+y
+sudo dnf autoremove
+y
+yay
+yay
+type -a dart
+type -a flutter
+rm -rf ~/.flutter
+cd nushell
+cd fish
+flutter
+type -a flutter
+type -a dart
+cat $env.PATH
+echo $env.PATH
+echo $env.PATH |grep flutter
+set -U | grep flutter
+fish
+# Check env.nu (separate from config.nu)<\n>open ~/.config/nushell/env.nu | lines | find flutter<\n><\n># Check if it's in the permanent environment<\n>$env | get PATH
+nu --log-level debug 2>&1 | lines | find flutter
+bash
+fish
+y
+yay
+echo $env.PATH |grep flutter
+# 1. Check if there's a .bash_login (overrides .profile if exists)<\n>cat ~/.bash_login 2>/dev/null<\n><\n># 2. Check /etc/environment (system-wide)<\n>cat /etc/environment | grep flutter<\n><\n># 3. Check if GDM/SDDM/etc sets it<\n>cat ~/.xsessionrc 2>/dev/null | grep flutter<\n>cat ~/.xinitrc 2>/dev/null | grep flutter<\n><\n># 4. Check systemd user service that might set it<\n>systemctl --user cat environment.service 2>/dev/null<\n><\n># 5. Check if it's in a shell function or alias that modifies PATH<\n>type flutter  # see if it's a function
+# In Nushell - check env.nu path<\n>$nu.env-path<\n>open $nu.env-path | lines | find flutter<\n><\n># Check if it's in default_env.nu<\n>$nu.default-config-dir
+fish
+ls
+fish
+echo $env.PATH |<\n>grep flutter
+echo $env.PATH | grep flutter
+echo $env.PATH 
+type -a flutter
+cat .profile
+fzhnf@fedora ~> sudo su<\n>[sudo] password for fzhnf:<\n>root@fedora:/home/fzhnf# cd<\n>root@fedora:~# cd /root/<\n>root@fedora:~# cat<\n>anaconda-ks.cfg       .bash_profile         .cshrc                initial-setup-ks.cfg  .myclirc              .tcshrc<\n>.android/             .bashrc               .flutter              .local/               .ollama/<\n>.bash_history         .cache/               .gnupg/               .mycli-history        .pub-cache/<\n>.bash_logout          .config/              .gtkrc-2.0            .mycli.log            .ssh/<\n>root@fedora:~# cat .bash<\n>.bash_history  .bash_logout   .bash_profile  .bashrc<\n>root@fedora:~# cat .bash<\n>.bash_history  .bash_logout   .bash_profile  .bashrc<\n>root@fedora:~# cat .bashrc<\n># .bashrc<\n><\n># Source global definitions<\n>if [ -f /etc/bashrc ]; then<\n>        . /etc/bashrc<\n>fi<\n><\n># User specific environment<\n>if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]<\n>then<\n>    PATH="$HOME/.local/bin:$HOME/bin:$PATH"<\n>fi<\n>export PATH<\n><\n># Uncomment the following line if you don't like systemctl's auto-paging feature:<\n># export SYSTEMD_PAGER=<\n><\n># User specific aliases and functions<\n><\n>alias rm='rm -i'<\n>alias cp='cp -i'<\n>alias mv='mv -i'<\n>root@fedora:~# cat .bash_profile<\n># .bash_profile<\n><\n># Get the aliases and functions<\n>if [ -f ~/.bashrc ]; then<\n>        . ~/.bashrc<\n>fi
+grep -r flutter /etc/profile /etc/profile.d/ /etc/environment 2>/dev/null
+grep -r flutter ~/.bashrc ~/.config/nushell/ ~/.config/environment.d/ 2>/dev/null
+cat /etc/greetd/config.toml<\n>sudo grep -r flutter /etc/greetd/ 2>/dev/null
+grep -r flutter /etc/profile.d/
+cat /etc/environment
+grep -r flutter ~/.bashrc ~/.bash_profile ~/.profile
+ls ~/.config/environment.d/
+cat ~/.config/systemd/user/niri.service
+cat /usr/bin/niri-session
+ls ~/.config/nushell/
+cat ~/.config/nushell/config.nu | find flutter
+nu --log-level debug 2>~/nu-debug.log; cat ~/nu-debug.log | find flutter
+mise list
+systemctl --user show-environment | grep flutter
+systemctl --user unset-environment PATH
+yay
+echo $env.PATH 
+echo $env.PATH  | grep flutter
+ls /etc/profile.d/
+cat /etc/profile.d/70-systemd-shell-extra.sh
+tail -20 ~/.bashrc<\n>tail -20 ~/.bash_profile  <\n>tail -20 ~/.profile
+ls ~/.bashrc.d/
+bash -l -x 2>&1 | grep flutter
+echo $env.PATH  | grep flutter
+mise use -g flutter
+mise use -g flutter@latest
+ms
+mise
+a
+mise uninstall flutter
+mise uninstall -g flutter
+cd mise
+cd .config/mise
+nvim config.toml
+mise use -g flutter@latest
+mise
+flutter
+type -a flutter
+mise
+mise status
+cd
+mise status
+mise list
+nvim .config/mise/config.toml
+mise
+flutter
+mise update
+mise self-update
+mise sync
+mise ls
+mise ls-remote flutter
+mise --version
+nvim
+sudo dnf upgrade mise
+mise --version
+mise use -f flutter@latest
+mise use -g flutter@latest
+mise ls-remote flutter | grep stable | tail -20
+flutter
+ssh
+sshd 
+flutter
+flutter
+tldr modprobe
+yay
+tldr modprobe
+mise use -g flutter@latest
+mkdir .Flutter
+tar -xf ~/Downloads/flutter_linux_3.29.3-stable.tar.xz -C ~/.Flutter/
+tar -xf ~/Downloads/flutter_linux_3.41.2-stable.tar.xz -C ~/.Flutter/
+flutter
+.Flutter/flutter/bin/flutter
+.Flutter/flutter/bin/flutter --version
+.Flutter/flutter/bin/flutter --doct
+.Flutter/flutter/bin/flutter --doctor
+.Flutter/flutter/bin/flutter doctor
+ls
+cd Flutter
+cd mise
+nvi
+nvim
+echo 'export PATH="$HOME/.Flutter/flutter/bin:$PATH"' >> ~/.profile<\n>
+cd 
+cd .profile
+nvim .profile
+flutter
+source ~/.profile
+bash
+ip addr
+fish
+flutter
+cd .profile
+cat .profile
+cargo
+ttyper
+nvim
+cat .profile
+nvim
+nvim .profile
+yay
+flutter
+source ~/.profile
+nvim
+tldr wg
+source ~/.profile
+flutter
+bash
+bash
+bash
+cd fish
+source config.fish
+nvim
+fish
+nvim .profile
+less 
+less
+less panduan_kepenulisan_tugas_akhir.txt
+flatpak
+ip addr
+ufw
+sudo systemctl disable ufw.service
+sudo systemctl enable  ufw.service
+sudo systemctl stop ufw.service
+sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1<\n>sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1<\n>sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1<\n>
+ufw status
+sudo ufw status
+flatpak install flathub com.github.tchx84.Flatseal
+flatpak install  com.github.tchx84.Flatseal
+tldr flatpak
+flatpack list
+flatpak list --app
+flatpak install  Flatseal
+flatpak run com.hypixel.HytaleLauncher
+ufw
+sudo ufw status
+systemctl stop ufw
+systemctl status ufw
+sudo ufw status
+firewallf
+firewalld
+nmcli device
+iw dev wlp6s0 get power_save
+sudo iw dev wlp6s0 set power_save off
+sudo ethtool -K wlp6s0 gro off gso off tso off
+sudo resolvectl flush-caches
+bto
+btop
+flatpak run com.hypixel.HytaleLauncher
+ip addr
+nmcli connection show
+sudo nmcli connection modify "ZTE_5G_hey3Ft" wifi.cloned-mac-address permanent && sudo nmcli connection up "ZTE_5G_hey3Ft"
+fish
+yay
+sudo dnf autoremove
+cd re ma mo
+cd testpage
+cd test_page
+flutter run
+emulator -avd Small_Phone
+cd tracer
+antigravity .
+nvim
+cd test_page
+nvim
+cd re ma mo
+nivm
+nvim
+cd proposal_tugas_akhir/
+flutter run -d emulator-5
+cd re ma mo
+flutter run -d emulator-5
+emulator -avd Medium_Phone
+ping 1.1.1.1
+nvim 
+nmtui
+nvim
+yay
+sudo dnf autoremove
+niri msg outputs
+cd niri
+nvim
+yay
+y
+yay
+niri msg outputs
+cd niri
+nvim
+niri msg outputs
+niri msg output eDP-2 disable
+niri msg output eDP-2 off
+ya
+yay
+nvim
+cd niri
+nvim
+cd tracer
+ls
+a
+la
+cd proposal_tugas_akhir/
+ya
+nvim
+yay
+sudo dnf autoremove
+la
+y
+cd re ma mo
+cd proposal
+ls resources/sumber-pustaka/
+ls resources/sumber-pustaka/ | wl-copy
+cd resources/sumber-pustaka<\n># Find the exact filename<\n>ls -1 | cat -A | grep -n "Perancangan Antarmuka"<\n># Then rename using a glob or find<\n>find . -name "*Perancangan Antarmuka*" -exec mv {} "Perancangan Antarmuka Pengguna Sistem Informasi Prosedur Pelayanan Umum Menggunakan Metode Design Thinking.pdf" \;
+cd sumber-pustaka/
+nvim
+bash
+cd ..
+ls
+dolphin .
+ls
+ls | wl-copy
+nvim
+bash
+cd tracer
+nvim
+niri msg output eDP-2 off
+nmtui
+cd re ma mo
+nvim
+flutter run -d emulator-5
+mise ls-remote flutter 
+mise --version
+yay
+sudo dnf upgrade mise
+sudo dnf upgrade mise --refresh
+mise
+mise ls-remote flutter 
+mise update
+mise --help
+man mise
+mise cache clear
+man mise
+mise edit
+cd mise
+nivm
+flutter analyze
+dart analyze
+which flutter
+flutter analyze
+flutter run -d emulator-5
+git commit 0a6229cd680228eaac708500b375d154412e33ef
+git diff 0a6229cd680228eaac708500b375d154412e33ef
+dart analyze
+nvim
+cd tracer
+cat /home/fzhnf/.gemini/antigravity/brain/3b60c7bf-d691-45df-835f-27f4b357a5a8/implementation_plan.md.resolved
+cat /home/fzhnf/.gemini/antigravity/brain/3b60c7bf-d691-45df-835f-27f4b357a5a8/implementation_plan.md.resolved |wl-copy
+emulator -avd Medium_Phone
+ls -la /home/fzhnf/Public/projectRepos/tracerstudy/proposal_tugas_akhir
+fish
+flutter run -d emulator-5
+dart analyze 
+dart analyze  |wl-copy
+nvim
+flutter run -d emulator-5
+dart analyze  |wl-copy
+niri msg output eDP-2 off
+yay
+mise --version
+mise ls-remote flutter 
+yay
+cd tracer
+nvim
+cd proposal_tugas_akhir/
+cd nvim
+cd nrii
+cd niri
+niri msg output eDP-2 off
+nvim
+y
+bash
+find     󰈦 /00047 Acomprativestudyofsdlcmodel.pdf<\n>
+find     Acomprativestudyofsdlcmodel.pdf<\n>
+fd Acomprativestudyofsdlcmodel.pdf<\n>
+history pdftotext<\n>
+history |grep pdftotext<\n>
+pdftotext resources/sumber-pustaka/Acomprativestudyofsdlcmodel.pdf
+fd Acomprativestudyofsdlcmodel<\n>
+cd proposal_tugas_akhir/
+magick resources/sumber-pustaka/ixdf2016ucd_ucd_phases.avif resources/sumber-pustaka/ixdf2016ucd_ucd_phases.png
+cd ..
+magick resources/sumber-pustaka/ixdf2016ucd_ucd_phases.avif resources/sumber-pustaka/ixdf2016ucd_ucd_phases.png
+fd ucd_phas
+nvim
+yya
+yay
+niri msg output eDP-2 off
+cd tracer
+ls
+yay
+sudo dnf upgrade mise --refresh
+nvim
+killall antigravity
+bto
+btop
+typst compile "proposal_tugas_akhir/1122107_Faiz Ahnaf Samudra Azis_proposal-TA.typ" 2> compile_error_check15.log
+bash
+niri msg output 
+niri msg output eDP-2 
+niri msg output 
+history | grep niri msg
+history | grep "niri msg"
+niri msg output
+niri msg outputs
+cd niir
+cd niri
+nivm
+niri msg output HDMI-A-1
+niri msg outputs
+nvim
+cd niri
+nvim
+cd prop
+typst compile "1122107_Faiz Ahnaf Samudra Azis_proposal-TA.typ" 2> compile_error_check15.log
+typst compile "1122107_Faiz Ahnaf Samudra Azis_proposal-TA.typ" 
+cd prop
+typst compile "1122107_Faiz Ahnaf Samudra Azis_proposal-TA.typ" 
+lsblk
+niri msg output eDP-2 
+niri msg output eDP-2 off
+nvim
+ttyper
+ncdu
+cd run
+cd /run
+cd ./media/fzhnf/
+ls
+cd `New Volume/`
+ls
+ncdu
+ls
+cd ..
+lsblk
+sudo umount /run/media/fzhnf/New Volume
+sudo umount /run/media/fzhnf/New\ Volume
+sudo umount `/run/media/fzhnf/New Volume/`
+lsblk
+cd new
+ncdu
+cd re ma mo
+nvim
+flutter run -d emulator-5
+emulator -avd Small_Phone
+cd tracer
+nvim
+cd tracer
+antigravity .
+niri msg outputs
+niri msg output eDP-2 off
+cd laporan_magang
+fd laporan_magang
+cd Documents/laporan_hasil_magang
+cd Documents/laporan-ma
+cd Documents/laporan-magang/
+ls
+nvim
+cd laporan
+niri msg output eDP-2 off
+cd laporan
+nvim
+cd laporan
+nvim
+cd laporan
+cp presentation.typ presentation.typ.bak
+niri msg output eDP-2 on
+cd niri
+niri msg outputs
+niri msg output eDP-2 on
+niri msg output eDP-2 off
+nvim
+cd laporan
+niri msg output eDP-2 on
+yay
+cd laporan
+nvim
+cd tracer
+cd niri
+nvim
+nvim
+niri msg output eDP-2 off
+cd tracer
+yay
+sudo dnf autoremove
+cd tracer
+php
+php -v
+sudo dnf search php
+sudo dnf repolist
+sudo dnf remove 'php*'
+ph
+php
+composer
+cd fish
+nvim
+mise ls-remote flutter 
+mise use --global php@8.3   # or whatever version you want
+mise use --global php@8.1 --MISE_VERBOSE=1
+mise use --global php@8.1 --verbose MISE_VERBOSE=1
+sudo dnf install -y gcc make autoconf bison re2c libxml2-devel libsqlite3x-devel openssl-devel curl-devel libpng-devel libjpeg-devel oniguruma-devel readline-devel libzip-devel zlib-devel
+mise use --global php@8.1 
+php
+mise use --global php@8.1 
+sudo dnf install -y gcc make autoconf bison re2c libxml2-devel libsqlite3x-devel openssl-devel curl-devel libpng-devel libjpeg-devel oniguruma-devel readline-devel libzip-devel zlib-devel
+mise use --global php@8.1
+sudo dnf install -y gd-devel freetype-devel libXpm-devel libwebp-devel libavif-devel
+mise use --global php@8.1
+sudo dnf install -y postgresql-devel libsodium-devel libtidy-devel libxslt-devel libicu-devel
+mise use --global php@8.1
+which pg_config<\n>rpm -ql postgresql-devel | grep pg_config
+sudo dnf install -y libpq-devel
+PHP_BUILD_CONFIGURE_OPTS="--without-pdo-pgsql --without-pgsql" mise use --global php@8.1
+sudo dnf groupinstall "Development Tools"
+sudo dnf install @development-tools
+mise use --global php@8.1
+php
+sudo dnf searh php
+sudo dnf search php
+dnf repolist
+sudo dnf install php-81
+sudo dnf search php
+sudo dnf search php8
+sudo dnf search php81
+sudo dnf install php81
+php
+php81 
+sudo dnf module enable php:remi-8.1 -y
+sudo dnf module reset php -y<\n>
+y
+sudo dnf module enable php:remi-8.1 -y<\n>
+php -v
+php
+sudo dnf install php php-cli php-fpm -y<\n>
+sudo dnf remove php81
+php
+php -v
+composer
+sudo dnf install composer -y
+fd tracer-study-main
+nvim
+cd dotfi
+fd dotfile
+cd Public/dotfiles/
+ls
+rm -rf fish/ kickstart-modular.nvim/ kitty/ neofetch/ nvchad/ qtile/ showcase1.png showcase2.png wezterm/
+cd config
+mako
+cp fish/ nvim/ niri/ mise/ anyrun/ foot/ alacritty/ zellij/ nushell/ DankMaterialShell/
